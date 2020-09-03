@@ -1,0 +1,36 @@
+@font-face { 
+ font-family: 'SFProDisplay-Regular', sans-serif;
+ src: url('../fonts/SFProDisplay-Regular.woff2') format('woff2'),/*url путь к шрифту. src нужен для того чтобы прописать путь к шрифту где он находится */
+      url('../fonts/SFProDisplay-Regular.woff') format('woff');
+ font-weight: 400;
+ font-style: normal;
+ font-display: swap;
+ /*font-display: swap сразу же использует резервный шрифт. В этом случае, как только завершится загрузка вашего пользовательского шрифта, будь то через секунду или 5, браузер заменит резервный шрифт на ваш пользовательский.*/
+}
+
+@font-face {
+ font-family: 'SFProDisplay-Medium', sans-serif;
+ src: url('../fonts/SFProDisplay-Medium.woff2') format('woff2'),
+  url('../fonts/SFProDisplay-Medium.woff') format('woff');
+ font-weight: 500;
+ font-style: normal;
+ font-display: swap;
+}
+
+@font-face {
+ font-family: 'SFProDisplay-Semibold', sans-serif;
+ src: url('../fonts/SFProDisplay-Semibold.woff2') format('woff2'),
+  url('../fonts/SFProDisplay-Semibold.woff') format('woff');
+ font-weight: 600;
+ font-style: normal;
+ font-display: swap;
+}
+
+@font-face {
+ font-family: 'SFProDisplay-Bold', sans-serif;
+ src: url('../fonts/SFProDisplay-Bold.woff2') format('woff2'),
+  url('../fonts/SFProDisplay-Bold.woff') format('woff');
+ font-weight: 700;
+ font-style: normal;
+ font-display: swap;
+}
